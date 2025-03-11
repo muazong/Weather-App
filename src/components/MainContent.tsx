@@ -13,7 +13,7 @@ function MainContent() {
   return (
     <div
       style={background}
-      className="flex justify-center items-center h-[95%] max-w-[1200px] w-full"
+      className="flex flex-col justify-center items-center h-[95%] max-w-[1200px] w-full"
     >
       <TopContent />
       <BottomContent />
