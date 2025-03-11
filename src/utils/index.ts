@@ -1,1 +1,1 @@
-export { default } from './checkingTimeOfDay.ts';
+export { default } from './getTimePeriod.ts';
