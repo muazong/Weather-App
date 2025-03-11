@@ -1,6 +1,6 @@
 function BottomContent() {
   return (
-    <div className="flex flex-1/2 items-center justify-center">
+    <div className="flex flex-1/5 items-center justify-center">
       BottomContent
     </div>
   );
