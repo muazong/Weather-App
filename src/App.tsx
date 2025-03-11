@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { getTimePeriod } from './utils';
 import { TimePeriod } from './enums';
 import background from './assets/images/background';
+import MainContent from './components/MainContent';
 
 function App() {
   const [appBackground, setAppBackground] = useState<string | undefined>(
@@ -36,7 +37,9 @@ function App() {
             backgroundImage: `url(${appBackground})`,
           }}
           className={`flex flex-1 justify-center items-center h-screen w-full bg-cover`}
-        ></div>
+        >
+          <MainContent />
+        </div>
       )}
     </>
   );
