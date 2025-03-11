@@ -1,3 +1,6 @@
+import BottomContent from './BottomContent';
+import TopContent from './TopContent';
+
 function MainContent() {
   const background = {
     background: 'rgba(255, 255, 255, 0.2)',
@@ -12,7 +15,8 @@ function MainContent() {
       style={background}
       className="flex justify-center items-center h-[95%] max-w-[1200px] w-full"
     >
-      MainContent
+      <TopContent />
+      <BottomContent />
     </div>
   );
 }
