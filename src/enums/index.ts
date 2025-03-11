@@ -1,1 +1,1 @@
-export { default } from './TimePeriod.ts';
+export { TimePeriod } from './TimePeriod.ts';

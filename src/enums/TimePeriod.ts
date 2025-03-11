@@ -15,4 +15,4 @@ enum TimePeriod {
   EVENING = 'evening',
 }
 
-export default TimePeriod;
+export { TimePeriod };

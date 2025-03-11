@@ -1,6 +1,10 @@
-import TimePeriod from '../enums';
+import { TimePeriod } from '../enums';
 
-function getTimePeriod() {
+/**
+ * Determines the current time period based on the hour of the day.
+ * @returns {TimePeriod} The corresponding time period.
+ */
+function getTimePeriod(): string {
   const hour: number = new Date().getHours();
   let timePeriod: string = '';
 
@@ -12,4 +16,4 @@ function getTimePeriod() {
   return timePeriod;
 }
 
-export default getTimePeriod;
+export { getTimePeriod };
